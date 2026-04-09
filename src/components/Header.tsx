@@ -3,6 +3,8 @@ import SocialLinks from './SocialLinks';
 import { cn } from '@/lib/utils';
 import { Labels } from '@/static/Labels';
 import profile from '../../assets/profile-no-bg.png';
+import { Download } from 'lucide-react';
+import { ThemeToggle } from './ThemeToggle';
 
 interface HeaderProps {
   className?: string;
@@ -10,7 +12,10 @@ interface HeaderProps {
 
 const Header = ({ className }: HeaderProps) => {
   return (
-    <header className={cn("relative w-full min-h-[100vh] flex items-center justify-center overflow-hidden", className)}>
+    <header role="banner" className={cn("relative w-full min-h-[100vh] flex items-center justify-center overflow-hidden", className)}>
+      <div className="absolute top-4 right-4 z-20">
+        <ThemeToggle />
+      </div>
       <div className="absolute inset-0 w-full h-full bg-portfolio-primary opacity-75 z-0">
       </div>
 
@@ -19,7 +24,10 @@ const Header = ({ className }: HeaderProps) => {
           <h1 className="text-4xl md:text-6xl font-bold text-portfolio-lightest mb-4">
             {Labels.header.heading1}
           </h1>
-          <h2 className="text-xl md:text-2xl text-portfolio-lightest mb-6">{Labels.header.heading2}</h2>
+          <h2 className="text-xl md:text-2xl text-portfolio-lightest mb-4">{Labels.header.heading2}</h2>
+          <p className="text-lg text-portfolio-lightest/80 mb-6 max-w-lg">
+            {Labels.header.bio}
+          </p>
           
           <div className="flex flex-col items-center sm:flex-row gap-4">
             <a 
@@ -28,6 +36,16 @@ const Header = ({ className }: HeaderProps) => {
               aria-label={Labels.header.button}
             >
               {Labels.header.button}
+            </a>
+            <a 
+              href={Labels.header.resumeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-portfolio-secondary hover:bg-portfolio-secondary/80 text-portfolio-primary px-6 py-3 rounded focus:outline-none focus:ring-2 focus:ring-white transition-colors flex items-center gap-2 font-medium"
+              aria-label="Download Resume"
+            >
+              <Download size={18} />
+              Resume
             </a>
             <SocialLinks className="mt-6 sm:mt-0 sm:ml-4 text-portfolio-lightest" />
           </div>

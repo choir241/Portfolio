@@ -5,9 +5,16 @@
 
 @layer base {
   :root {
+    font-family: 'Outfit', sans-serif;
     color: #137a7f;
     --background: 210 40% 98%;
     --foreground: 222.2 84% 4.9%;
+    --portfolio-primary: #163B46;
+    --portfolio-secondary: #39C5BB;
+    --portfolio-neutral: #6f8c9f;
+    --portfolio-light: #a9e7e2;
+    --portfolio-lightest: #e6fff9;
+    --portfolio-bg: #22475e;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -49,6 +56,12 @@
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
+    --portfolio-primary: #0d2428;
+    --portfolio-secondary: #39C5BB;
+    --portfolio-neutral: #6f8c9f;
+    --portfolio-light: #1a3d3f;
+    --portfolio-lightest: #0d2428;
+    --portfolio-bg: #0a1c1f;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
@@ -88,6 +101,10 @@
 @layer base {
   * {
     @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {

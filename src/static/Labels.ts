@@ -10,6 +10,39 @@ import ryanFurrer from "../../assets/ryan.png";
 import DSD from "../../assets/dsd.jpg";
 
 export const Labels = {
+    about: {
+        heading2: "About Me",
+        content: "I'm a Full-stack Developer & Technical Writer with a passion for building accessible, user-focused web experiences. Currently working at Postman as a Full-Stack Engineer (Contract), I've contributed to open-source documentation at Appwrite and completed an intensive program at Dallas Software Developers. My journey in tech started from curiosity and has grown into a career dedicated to creating intuitive interfaces and helping others learn. With 80+ 1:1 mentoring calls, 50+ meetups attended, and 3,778+ open source contributions, I bring both technical skills and community engagement to every project.",
+        education: {
+            school: "TCNJ (The College of New Jersey)",
+            degree: "Bachelor of Arts",
+            year: "2018"
+        }
+    },
+    blog: {
+        heading2: "Technical Writing",
+        description: "I've written articles for leading developer platforms, sharing insights on React, TypeScript, and web development best practices.",
+        articles: [
+            {
+                title: "Getting Started with Appwrite Functions",
+                excerpt: "Learn how to build serverless functions with Appwrite in this comprehensive guide.",
+                link: "https://appwrite.io/docs/functions",
+                platform: "Appwrite"
+            },
+            {
+                title: "React Best Practices for 2024",
+                excerpt: "A deep dive into modern React patterns and best practices for building scalable applications.",
+                link: "https://blog.example.com/react-best-practices",
+                platform: "Personal Blog"
+            },
+            {
+                title: "TypeScript Tips for Beginners",
+                excerpt: "Practical TypeScript tips that will help you write better, safer code.",
+                link: "https://blog.example.com/typescript-tips",
+                platform: "Personal Blog"
+            }
+        ]
+    },
     contact:{
         heading2: "My Services",
         contactCardChat: {
@@ -32,56 +65,102 @@ export const Labels = {
         }
     },
     features:{
-        heading2: "Community Engagement",
-        bubbleChat:{
-            title: "1 on 1 Calls",
-            number: "80+"
-        },
-        bubbleConference:{
-            title: "Conferences Attended",
-            number: "7+"
-        },
-        bubbleMeetup:{
-            title: "Meetups Attended",
-            number: "50+"
-        },
-        bubbleCommit:{
-            title: "Contributions Made",
-            number: "3,778+"
-        }
+        heading2: "Community Impact",
+        stats: [
+            { label: "Contributions", value: "3,778+" },
+            { label: "Calls", value: "80+" },
+            { label: "Tech Meetups Attended", value: "50+" },
+            { label: "Conferences Attended", value: "7+" }
+        ]
     },
     footer: {
         author: "Richard",
-        description: "React Developer & Technical Writer",
+        description: "Full-stack Developer & Technical Writer",
         copyright: "Richard. All rights reserved.",
     },
     header: {
         heading1: "Hi, I'm Richard",
-        heading2: "React Developer & Technical Writer",
-        button: "Services I Provide"
+        heading2: "Full-stack Developer & Technical Writer",
+        tagline: "I build accessible, user-focused web applications and help developers write better code through technical writing and mentoring.",
+        cta: "View My Work",
+        resumeLink: "/Richard_Choi_Resume.pdf"
+    },
+    skills: {
+        heading2: "Tech I Work With",
+        categories: [
+            {
+                name: "Frontend",
+                skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Radix UI"]
+            },
+            {
+                name: "Backend",
+                skills: ["Node.js", "Express", "MongoDB", "PostgreSQL", "Appwrite"]
+            },
+            {
+                name: "Tools & Other",
+                skills: ["Git", "Docker", "Technical Writing", "Figma", "CI/CD"]
+            }
+        ]
+    },
+    experience: {
+        heading2: "Experience",
+        jobs: [
+            {
+                company: "Supreme Nomads",
+                role: "Full-Stack Engineer",
+                period: "Nov 2024 - Present",
+                description: "Building and maintaining full-stack web applications using React and Node.js. Designing and implementing RESTful APIs. Collaborating with cross-functional teams to deliver high-quality products."
+            },
+            {
+                company: "Postman",
+                role: "Full-Stack Engineer (Contract)",
+                period: "Jan 2026 - Apr 2026",
+                description: "API Development, API Automation, API Design, Building API-First Workflows, and Building Custom Integrations."
+            },
+            {
+                company: "Dallas Software Developers",
+                role: "Full Stack Developer",
+                period: "2025",
+                description: "Completed intensive 6-week software development program. Built full-stack applications using React, Node.js, Express, and MongoDB. Collaborated with a team of developers to deliver production-ready code."
+            },
+            {
+                company: "Appwrite",
+                role: "Technical Writer",
+                period: "Nov 2024 - Present",
+                description: "Contributed to open-source documentation and website improvements. Wrote technical guides, tutorials, and improved developer experience for the Appwrite platform."
+            }
+        ]
     },
     projectCarousel: {
-        heading2: "Projects I worked on",
+        heading2: "Projects I've Worked On",
         project1: {
-            name: "Appwrite",
-            link: "https://appwrite.io/docs",
-            github: "https://github.com/appwrite/website",
-            logo: appwrite
+            name: "Postman",
+            description: "API Development and Automation - Building custom integrations and API-first workflows for enterprise clients.",
+            tech: ["TypeScript", "REST APIs", "Postman"],
+            link: "https://postman.com",
+            github: "https://github.com/postmanlabs",
+            logo: null
         },
         project2: {
             name: "Gridiron Survivor",
+            description: "NFL survivor pool management with React",
+            tech: ["React", "Node.js", "PostgreSQL"],
             link: "https://gridiron-survivor-letsgettechnical.vercel.app/",
             github: "https://github.com/LetsGetTechnical/gridiron-survivor",
             logo: gridiron
         },
         project3: {
-            name: "The Real Estate Beast",
-            link: "https://therealestatebeast.netlify.app/",
-            github: "https://github.com/choir241/The-Real-Estate-Beast",
-            logo: realEstateBeast
+            name: "Appwrite",
+            description: "Open-source backend platform documentation",
+            tech: ["React", "TypeScript", "MDX"],
+            link: "https://appwrite.io/docs",
+            github: "https://github.com/appwrite/website",
+            logo: appwrite
         },
         project4: {
             name: "Yes Chef",
+            description: "Restaurant kitchen management system",
+            tech: ["React", "Express", "MongoDB"],
             link: "https://yescheff.netlify.app/",
             github: "https://github.com/team-elder-and-nikki/yes-chef-app",
             logo: yesChef
