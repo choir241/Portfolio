@@ -9,12 +9,12 @@
     color: #137a7f;
     --background: 210 40% 98%;
     --foreground: 222.2 84% 4.9%;
-    --portfolio-primary: #163B46;
-    --portfolio-secondary: #39C5BB;
-    --portfolio-neutral: #6f8c9f;
-    --portfolio-light: #a9e7e2;
-    --portfolio-lightest: #e6fff9;
-    --portfolio-bg: #22475e;
+    --portfolio-primary: 22 59 70;
+    --portfolio-secondary: 57 197 187;
+    --portfolio-neutral: 111 140 159;
+    --portfolio-light: 169 231 226;
+    --portfolio-lightest: 230 255 249;
+    --portfolio-bg: 34 71 94;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -56,12 +56,12 @@
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
-    --portfolio-primary: #0d2428;
-    --portfolio-secondary: #39C5BB;
-    --portfolio-neutral: #6f8c9f;
-    --portfolio-light: #1a3d3f;
-    --portfolio-lightest: #0d2428;
-    --portfolio-bg: #0a1c1f;
+    --portfolio-primary: 13 36 40;
+    --portfolio-secondary: 57 197 187;
+    --portfolio-neutral: 111 140 159;
+    --portfolio-light: 26 61 63;
+    --portfolio-lightest: 13 36 40;
+    --portfolio-bg: 10 28 31;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;

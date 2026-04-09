@@ -26,12 +26,12 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				portfolio: {
-					primary: '#163B46',     // Deep teal-blue (replacing dark blue)
-					secondary: '#39C5BB',   // Bright teal/turquoise (Miku's signature color)
-					neutral: '#6f8c9f',     // Muted teal
-					light: '#a9e7e2',       // Light teal
-					lightest: '#e6fff9',    // Very light teal
-					background: '#22475e',  // Deep teal-blue (matching primary)
+					primary: 'rgb(var(--portfolio-primary))',
+					secondary: 'rgb(var(--portfolio-secondary))',
+					neutral: 'rgb(var(--portfolio-neutral))',
+					light: 'rgb(var(--portfolio-light))',
+					lightest: 'rgb(var(--portfolio-lightest))',
+					background: 'rgb(var(--portfolio-bg))',
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
