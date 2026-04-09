@@ -12,11 +12,9 @@ interface HeaderProps {
 
 const Header = ({ className }: HeaderProps) => {
   return (
-    <header role="banner" className={cn("relative w-full min-h-[100vh] flex items-center justify-center overflow-hidden", className)}>
+    <header role="banner" className={cn("relative w-full min-h-[100vh] flex items-center justify-center overflow-hidden bg-header", className)}>
       <div className="absolute top-4 right-4 z-20">
         <ThemeToggle />
-      </div>
-      <div className="absolute inset-0 w-full h-full bg-portfolio-primary opacity-75 z-0">
       </div>
 
       <article className="mx-auto px-4 z-10 flex flex-col lg:flex-row items-center">

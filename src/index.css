@@ -164,11 +164,10 @@ a:focus, button:focus {
 
 .bg-header {
   background-position: center;
+  background-color: rgb(var(--portfolio-primary));
 }
 
-&::before {
-  /* background-image: url("../assets/collage.png"); */
-  background-image: url("../assets/download.png");
+header.bg-header::before {
   content: "";
   background-position: center;
   background-repeat: no-repeat;
@@ -179,6 +178,7 @@ a:focus, button:focus {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
+  display: none;
 }
 
 .project:hover .projectName{
@@ -191,7 +191,7 @@ a:focus, button:focus {
     background-position: center;
   }
 
-  &::before{
+  header.bg-header::before{
     background-size: cover;
   }
 }
