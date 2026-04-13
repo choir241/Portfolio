@@ -151,7 +151,7 @@ export const Labels = {
         },
         project3: {
             name: "Appwrite",
-            description: "Open-source backend platform documentation",
+            description: "Open-source backend company",
             tech: ["React", "TypeScript", "MDX"],
             link: "https://appwrite.io/docs",
             github: "https://github.com/appwrite/website",
