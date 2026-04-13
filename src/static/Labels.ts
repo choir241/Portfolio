@@ -1,6 +1,6 @@
 import appwrite from "../../assets/appwrite.png";
 import gridiron from "../../assets/gridironsurvivor.png";
-import realEstateBeast from "../../assets/therealestatebeast.png";
+import postman from "../../assets/postman-icon.png";
 import yesChef from "../../assets/yescheflogo.png";
 import gridironStream from "../../assets/GIS.jpg";
 import thatConference from "../../assets/thatConf.jpg";
@@ -139,7 +139,7 @@ export const Labels = {
             tech: ["TypeScript", "REST APIs", "Postman"],
             link: "https://postman.com",
             github: "https://github.com/postmanlabs",
-            logo: null
+            logo: postman
         },
         project2: {
             name: "Gridiron Survivor",
