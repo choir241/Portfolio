@@ -36,7 +36,7 @@ const Experience = ({ className }: ExperienceProps) => {
                       <h3 className="text-lg font-semibold text-portfolio-primary dark:text-white">
                         {job.role}
                       </h3>
-                      <p className="text-portfolio-secondary dark:text-portfolio-light font-medium">
+                      <p className="text-portfolio-secondary dark:text-white font-medium">
                         {job.company}
                       </p>
                     </div>

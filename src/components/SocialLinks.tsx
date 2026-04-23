@@ -40,7 +40,7 @@ const SocialLinks = ({ className }: SocialLinksProps) => {
           href={link.href} 
           target="_blank" 
           rel="noopener noreferrer"
-          className="transition-all hover:text-portfolio-secondary focus:text-portfolio-secondary"
+          className="transition-all hover:text-portfolio-secondary focus:text-portfolio-secondary dark:text-white"
           aria-label={link.label}
         >
             {link.icon}

@@ -57,10 +57,10 @@ const ContactCards = ({ className }: ContactCardsProps) => {
   ];
 
   return (
-    <article id="contact" className={cn("py-20 bg-white dark:bg-gray-900", className)}>
+    <article id="contact" className={cn("py-20 bg-gray-600 dark:bg-gray-900", className)}>
       <section className="mx-auto px-4 max-w-6xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-portfolio-primary dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-portfolio-primary text-white mb-4">
             {Labels.contact.heading2}
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">

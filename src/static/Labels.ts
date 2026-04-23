@@ -1,5 +1,5 @@
 import appwrite from "../../assets/appwrite.png";
-import gridiron from "../../assets/gridironsurvivor.png";
+import supremeNomadsDetailing from "../../assets/supreme_nomads_detailing.png";
 import postman from "../../assets/postman-icon.png";
 import yesChef from "../../assets/yescheflogo.png";
 import gridironStream from "../../assets/GIS.jpg";
@@ -12,7 +12,7 @@ import DSD from "../../assets/dsd.jpg";
 export const Labels = {
     about: {
         heading2: "About Me",
-        content: "I'm a Full-stack Developer & Technical Writer with a passion for building accessible, user-focused web experiences. Currently working at Postman as a Full-Stack Engineer (Contract), I've contributed to open-source documentation at Appwrite and completed an intensive program at Dallas Software Developers. My journey in tech started from curiosity and has grown into a career dedicated to creating intuitive interfaces and helping others learn. With 80+ 1:1 mentoring calls, 50+ meetups attended, and 3,778+ open source contributions, I bring both technical skills and community engagement to every project.",
+        content: "Full-stack software engineer with experience building developer-facing tools and shipping features across distributed systems. Proven track record of delivering end-to-end functionality and improving reliability in production environments. Brings a background in English to translate complex system behavior into clear, user-focused workflows and documentation, strengthening developer experience.",
         education: {
             school: "TCNJ (The College of New Jersey)",
             degree: "Bachelor of Arts",
@@ -24,7 +24,7 @@ export const Labels = {
         description: "I've written articles for leading developer platforms, sharing insights on React, TypeScript, and web development best practices.",
         articles: [
             {
-                title: "Getting Started with Appwrite Functions",
+                title: "Appwrite Functions",
                 excerpt: "Learn how to build serverless functions with Appwrite in this comprehensive guide.",
                 link: "https://appwrite.io/docs/functions",
                 platform: "Appwrite"
@@ -108,26 +108,26 @@ export const Labels = {
             {
                 company: "Supreme Nomads",
                 role: "Full-Stack Engineer",
-                period: "Nov 2024 - Present",
-                description: "Building and maintaining full-stack web applications using React and Node.js. Designing and implementing RESTful APIs. Collaborating with cross-functional teams to deliver high-quality products."
+                period: "Nov 2025 - Apr 2026",
+                description: "Architectured a full-stack application to enable end-to-end services selection, appointments reservation, and user info storage, creating a digital platform to expand business operations."
             },
             {
                 company: "Postman",
-                role: "Full-Stack Engineer (Contract)",
+                role: "Full-Stack Engineer (Intern)",
                 period: "Jan 2026 - Apr 2026",
-                description: "API Development, API Automation, API Design, Building API-First Workflows, and Building Custom Integrations."
+                description: "Shipped end-to-end file input support for Postman Flows across 5 codebases (desktop/web client, local and cloud execution backends, shared block library, and compiler), designing the client → backend metadata contract and updating the storage and hydration paths so uploaded files resolve correctly across cloud, local, deployed, scheduled, and module flow runs."
             },
             {
                 company: "Dallas Software Developers",
                 role: "Full Stack Developer",
                 period: "2025",
-                description: "Completed intensive 6-week software development program. Built full-stack applications using React, Node.js, Express, and MongoDB. Collaborated with a team of developers to deliver production-ready code."
+                description: "Architected and built a full-stack booking platform (Node.js + React) enabling service selection, appointment scheduling, and user data persistence, replacing manual booking workflows and creating a scalable digital system for business operations."
             },
             {
                 company: "Appwrite",
-                role: "Technical Writer",
-                period: "Nov 2024 - Present",
-                description: "Contributed to open-source documentation and website improvements. Wrote technical guides, tutorials, and improved developer experience for the Appwrite platform."
+                role: "Technical Writer (Intern)",
+                period: "Jan 2024 - Sept 2024",
+                description: "Identified missing gaps in the Appwrite CLI documentation by uncovering missing deployment guidance for functions, sites, teams, topics, and buckets. Designed and wrote cross-language code examples (ie. Go, React, and Python) to reduce onboarding friction and enable developers to adopt CLI workflows across different stacks."
             }
         ]
     },
@@ -142,12 +142,12 @@ export const Labels = {
             logo: postman
         },
         project2: {
-            name: "Gridiron Survivor",
-            description: "NFL survivor pool management with React",
-            tech: ["React", "Node.js", "PostgreSQL"],
-            link: "https://gridiron-survivor-letsgettechnical.vercel.app/",
-            github: "https://github.com/LetsGetTechnical/gridiron-survivor",
-            logo: gridiron
+            name: "Supreme Nomads Detailing",
+            description: "Car Detailing Service",
+            tech: ["React", "Node.js", "MongoDB"],
+            link: "https://supremenomads.com/",
+            github: "https://github.com/choir241/snd-project",
+            logo: supremeNomadsDetailing
         },
         project3: {
             name: "Appwrite",
