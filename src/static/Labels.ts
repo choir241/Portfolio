@@ -30,15 +30,15 @@ export const Labels = {
                 platform: "Appwrite"
             },
             {
-                title: "React Best Practices for 2024",
-                excerpt: "A deep dive into modern React patterns and best practices for building scalable applications.",
-                link: "https://blog.example.com/react-best-practices",
+                title: "Conquering Fears: A Guide to an Empowered Developer Journey",
+                excerpt: "A personal story of conquering my fears and building your own developer journey around these lessons.",
+                link: "https://dev.to/choir241/conquering-fears-a-guide-to-an-empowered-developer-journey-20ib",
                 platform: "Personal Blog"
             },
             {
-                title: "TypeScript Tips for Beginners",
-                excerpt: "Practical TypeScript tips that will help you write better, safer code.",
-                link: "https://blog.example.com/typescript-tips",
+                title: "Consistency is King, and here's why.",
+                excerpt: "How building consistency in your daily life can affect your professional life too - including coding!",
+                link: "https://dev.to/choir241/consistency-is-king-and-heres-why-5ean",
                 platform: "Personal Blog"
             }
         ]
